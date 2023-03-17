@@ -1,11 +1,11 @@
-FROM node:18-alpine
+FROM node:14-alpine
 
 COPY . /usr/src/server
 
 # Create server directory
 WORKDIR /usr/src/server
 
-RUN yarn install
+RUN npm install
 
 EXPOSE 4040
 
