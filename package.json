@@ -1,6 +1,6 @@
 {
   "name": "express-ts-boilerplate-dicsyano",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "An Express.js boilerplate backend for DICSYS projects",
   "private": true,
   "main": "index.js",
@@ -61,12 +61,8 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/adrgerez/express-ts-boilerplate"
   },
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
       "npx prettier --write",
